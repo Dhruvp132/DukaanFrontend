@@ -1,0 +1,136 @@
+.headerbar {
+    font-size : 30px;
+    width : 100%;
+    display: flex;
+    padding-bottom : 5px;
+    justify-content: space-between;
+    border-bottom: solid #f4f4f4 2px;
+}
+.searchOrder{
+    padding : 10px;
+    background-color: white;
+    column-rule-color : grey;
+    border-radius: 8px;
+    width: 200px;
+    border : solid 0.5px #f2ecec;
+}
+.header_SearchBar {
+    width : 350px;
+    padding : 5px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    display: flex;
+}
+.inputBox1{
+    width: 100%;
+    font-size: 17px;
+    border: 0px;
+    background-color: #f2f2f2;
+    outline: transparent;
+}
+.header_SearchBar2 {
+    width : 350px;
+    padding : 5px;
+    border: 2px solid #f2f2f2;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    margin-bottom: 5px;
+}
+.inputBox2{
+    width: 100%;
+    font-size: 17px;
+    border: 0px;
+    background-color: white;
+    outline: transparent;
+}
+.transactions{
+    text-align: left;
+    width : 100%;
+}
+.mainContent {
+    background-color: #fafafa;
+    width: 120%;
+    padding: .75rem;
+}
+
+@media (max-width: 640px) {
+    .help {
+        display: none;
+    }
+}
+
+
+.orders :hover {
+    background-color: turquoise;
+}
+
+.flex1 {
+    /* background-color: white; */
+    display: flex;
+}
+.flex1 div{
+    /* background-color: white; */
+    margin-right : 10px;
+}
+.flex2 {
+    /* background-color: white; */
+    margin-top : 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.orders {
+    background-color: #f2f2f2;
+    display: flex;
+    margin-bottom: 20px;
+}
+.ordersPflex1 {
+    border-radius: 8px;
+    margin: 1px;
+    background: white;
+    flex : 0.5;
+    padding-left: 20px;
+}
+.ordersPflex2 {
+    border-radius: 8px;
+    margin: 1px;
+    background: white;
+    flex : 0.5;
+    padding-left: 20px;
+}
+.mainContent button {
+    background-color: white;
+    border-radius: 4px;
+    border :solid 1px grey;
+    height : 35px;
+}
+.transactions {
+    width: 100%;
+}
+.transactions th, .transactions td {
+    padding: 10px;
+}
+
+.tablecolRight {
+    text-align: right;
+}
+.tablecolRight1 {
+    background-color: #f2f2f2;
+    text-align: right;
+}
+.tablecolLeft1 {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.footer {
+    margin : 10px;
+    width : 95%;
+    display : flex;
+    justify-content: center;
+}
+
+.footer div {
+    margin: 10px;
+}
