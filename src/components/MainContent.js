@@ -198,7 +198,9 @@ function MainContent(props) {
             <div>
             <button style={{"height" : "30px"}}>Next <ChevronRightIcon style={{"height" : "15px", "margin-top" : "-5px", "paddingTop" : "5px"}}/></button>
             </div>
+
         </div>
+            <div style={{"display" : "flex","justifyContent" : "center"}}>Made by<b style={{ "marginLeft" : "10px"}}> Dhruv Patel</b></div>
       </div>
     </>
   );
